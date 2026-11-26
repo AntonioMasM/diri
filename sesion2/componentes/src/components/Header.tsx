@@ -13,7 +13,7 @@ function Header({ title }: HeaderProps) {
         <div className="dashBottom"></div>
         <div className="circle"></div>
       </div>
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <input
         type="text"
         className="searchInput"
