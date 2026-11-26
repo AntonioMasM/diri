@@ -10,9 +10,10 @@ function Header() {
       <input
         type="text"
         className="searchInput"
+        aria-label="Buscar tareas"
         placeholder="Buscar ..."
       />
-      <div className="fa fa-search searchIcon"></div>
+      <div className="fa fa-search searchIcon" aria-hidden="true"></div>
     </div>
   );
 }
